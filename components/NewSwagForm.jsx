@@ -16,7 +16,38 @@ const NewSwagForm = () => {
   }
 
   return (
-    <form onSubmit={handleSubmit} id="new-swag-form">
+    <form onSubmit={handleSubmit} className="container" id="new-swag-form">
+      <h1>Post A New Swag</h1>
+
+      <style jsx>{`
+        label {
+          display: block;
+          margin-bottom: 2rem;
+          display: flex;
+          justify-content: space-between;
+        }
+
+        label span {
+          opacity: 0.6;
+          display: inline-block;
+          margin-right: 2rem;
+          flex: 2;
+        }
+
+        input {
+          border: 0;
+          padding: 0.8rem;
+          border-radius: 5px;
+          font-size: 1rem;
+          flex: 5;
+        }
+
+        input[type="file"] {
+          background: white;
+          color: black;
+        }
+      `}</style>
+
       <label>
         <span>Name</span>
         <input name="item_name" type="text" required />
@@ -39,7 +70,7 @@ const NewSwagForm = () => {
 
       <label>
         <span>Details</span>
-        <textarea name="details"></textarea>
+        <input type="text" name="details" />
       </label>
 
       <input type="submit" />
