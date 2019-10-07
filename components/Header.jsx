@@ -72,6 +72,7 @@ const Header = () => (
     <style jsx>{`
       .header {
         position: relative;
+        margin-bottom: 4rem;
       }
 
       .header__decor {
