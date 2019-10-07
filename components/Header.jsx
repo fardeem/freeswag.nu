@@ -147,8 +147,8 @@ const Header = () => (
         </div>
 
         <nav className="nav">
-          <a href="/items">Items</a>
-          <a href="/map">Map</a>
+          <a href="/items">All Items</a>
+          <a href="/map">Map of Swags</a>
         </nav>
       </div>
     </header>
