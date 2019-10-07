@@ -141,7 +141,7 @@ const Header = () => (
           <a href="/">
             <h1 className="header__logo">Free Swag @ NU</h1>
           </a>
-          <a href="/" className="header__btn">
+          <a href="/post" className="header__btn">
             Post Swag
           </a>
         </div>
