@@ -27,6 +27,12 @@ const SwagList = () => {
         ul {
           list-style-type: none;
         }
+
+        @media (min-width: 800px) {
+          ul {
+            display: flex;
+          }
+        }
       `}</style>
 
       <ul>

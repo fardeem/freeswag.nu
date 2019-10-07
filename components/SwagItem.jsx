@@ -8,6 +8,12 @@ const SwagItem = ({ data }) => {
           margin-bottom: 4rem;
         }
 
+        @media (min-width: 800px) {
+          li:nth-of-type(2n + 1) {
+            padding-right: 2rem;
+          }
+        }
+
         header {
           display: flex;
           justify-content: space-between;
