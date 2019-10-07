@@ -49,8 +49,17 @@ const SwagItem = ({ data }) => {
 
         .toolbox {
           display: flex;
-          justify-content: space-around;
+          justify-content: space-between;
           margin-top: 2em;
+        }
+
+        .toolbox div {
+          text-align: right;
+        }
+
+        .toolbox div,
+        .toolbox p {
+          flex: 1;
         }
 
         .btn {
@@ -67,7 +76,7 @@ const SwagItem = ({ data }) => {
 
         .btn-good {
           background: linear-gradient(to bottom, #68c98b, #4e9869);
-          margin-right: 1rem;
+          margin-bottom: 1rem;
         }
 
         .btn-bad {
@@ -91,6 +100,7 @@ const SwagItem = ({ data }) => {
         <img src={data.img} alt="" />
 
         <div className="toolbox">
+          <p>{data.details}&nbsp;</p>
           <div>
             <a href="/" className="btn btn-good">
               Legit – <span>{data.upvotes}</span>

@@ -7,6 +7,7 @@ const dummy = [
     itemName: "Cupcakes",
     createdAt: "7 Oct 2019",
     location: "Norris University Center",
+    details: "Louis Room, by the door",
     upvotes: 9,
     downvotes: 2
   },
@@ -16,7 +17,8 @@ const dummy = [
     createdAt: "7 Nov 2019",
     location: "Norris University Center",
     upvotes: 3,
-    downvotes: 2
+    downvotes: 2,
+    details: ""
   }
 ];
 
