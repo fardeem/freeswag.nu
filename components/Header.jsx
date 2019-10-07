@@ -150,6 +150,7 @@ const Header = () => (
         <nav className="nav">
           <a href="/items">All Items</a>
           <a href="/map">Map of Swags</a>
+          <a href="/about">About</a>
         </nav>
       </div>
     </header>
